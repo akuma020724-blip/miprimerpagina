@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Navegación | Wiki Think</title>
+    <meta name="description" content="Tipos y principios del Diseño de Navegación, clave para la usabilidad y la experiencia de usuario.">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ5T92QP9H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KZ5T92QP9H');
+    </script>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="logo">WIKI</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="active"><a href="index.html#topics-grid-section" class="active">Temas</a></li>
+                <li><a href="glosario.html">Glosario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-box">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar concepto...">
+                <button type="submit" id="search-button">🔍</button>
+            </form>
+            <div id="search-error" class="search-error-message"></div>
+        </div>
+
+    </header>
+
+    <main class="article-container">
+        <aside class="toc-sidebar">
+            <h4 class="sidebar-title">Contenido del Artículo</h4>
+            <nav>
+                <ul>
+                    <li><a href="#definicion">1. Concepto y Tipos</a></li>
+                    <li><a href="#principios">2. Principios de Usabilidad</a></li>
+                    <li><a href="#patrones">3. Patrones Comunes</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <article class="article-content">
+            <h1 id="definicion">Diseño de Navegación</h1>
+            <p class="intro-text">El **Diseño de Navegación** se refiere a la creación de la estructura y los elementos de interfaz que permiten al usuario moverse a través de un sitio web o aplicación de manera eficiente.</p>
+
+            <section>
+                <h2>1. Concepto y Tipos</h2>
+                <p>La navegación debe ser intuitiva y consistente. Tipos: Global, Local y Contextual.</p>
+                </section>
+
+            <section id="principios">
+                <h2>2. Principios de Usabilidad</h2>
+                <p>Consistencia, retroalimentación (feedback) y claridad son esenciales para una buena navegación.</p>
+                </section>
+            
+            <hr>
+            <div class="navigation-links">
+                <a href="index.html#topics-grid-section">&larr; Volver a Temas</a> | <a href="glosario.html">Ir al Glosario</a>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Wiki Think. Proyecto Integrador.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

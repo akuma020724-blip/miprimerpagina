@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gracias por Contactarnos! | Wiki Think</title>
+    <meta name="description" content="Confirmación de que su mensaje ha sido enviado correctamente a la Wiki del Diseño Multimedia.">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ5T92QP9H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KZ5T92QP9H');
+    </script>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos específicos para la página de agradecimiento */
+        .gracias-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .gracias-main h1 {
+            color: var(--color-secondary);
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        .gracias-main p {
+            font-size: 1.2em;
+            color: var(--color-text);
+            max-width: 600px;
+        }
+        .gracias-main .btn-primary {
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">WIKI</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#topics-grid-section">Temas</a></li>
+                <li><a href="glosario.html">Glosario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-box">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar concepto...">
+                <button type="submit" id="search-button">🔍</button>
+            </form>
+            <div id="search-error" class="search-error-message"></div>
+        </div>
+
+    </header>
+
+    <main class="gracias-main">
+        <h1>¡Mensaje Enviado con Éxito!</h1>
+        <p>Agradecemos tu interés. Hemos recibido tu mensaje y lo revisaremos lo antes posible.</p>
+        <p>Tu *feedback* es muy importante para mejorar la Wiki Think.</p>
+        <a href="index.html" class="btn-primary">Volver a la Página Principal</a>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Wiki Think. Proyecto Integrador.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

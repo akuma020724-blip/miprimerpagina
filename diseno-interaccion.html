@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Interacción (IxD) | Wiki Think</title>
+    <meta name="description" content="Fundamentos del Diseño de Interacción (IxD), los 5 planos de la interacción y sus principios.">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ5T92QP9H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KZ5T92QP9H');
+    </script>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="logo">WIKI</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="active"><a href="index.html#topics-grid-section" class="active">Temas</a></li>
+                <li><a href="glosario.html">Glosario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-box">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar concepto...">
+                <button type="submit" id="search-button">🔍</button>
+            </form>
+            <div id="search-error" class="search-error-message"></div>
+        </div>
+
+    </header>
+
+    <main class="article-container">
+        <aside class="toc-sidebar">
+            <h4 class="sidebar-title">Contenido del Artículo</h4>
+            <nav>
+                <ul>
+                    <li><a href="#definicion">1. ¿Qué es IxD?</a></li>
+                    <li><a href="#dimensiones">2. Las 5 Dimensiones</a></li>
+                    <li><a href="#principios">3. Principios de Interacción</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <article class="article-content">
+            <h1 id="definicion">Diseño de Interacción (IxD)</h1>
+            <p class="intro-text">El **Diseño de Interacción (IxD)** es la práctica de diseñar productos interactivos, centrándose en cómo interactúan las personas con la tecnología.</p>
+
+            <section>
+                <h2>1. ¿Qué es IxD?</h2>
+                <p>El IxD se pregunta: ¿Cómo se siente el usuario al interactuar? ¿Cómo reacciona el sistema?</p>
+                </section>
+
+            <section id="dimensiones">
+                <h2>2. Las 5 Dimensiones del IxD</h2>
+                <p>El diseñador de IxD trabaja con palabras, representación visual, espacio, tiempo y comportamiento.</p>
+                </section>
+            
+            <hr>
+            <div class="navigation-links">
+                <a href="index.html#topics-grid-section">&larr; Volver a Temas</a> | <a href="glosario.html">Ir al Glosario</a>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Wiki Think. Proyecto Integrador.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

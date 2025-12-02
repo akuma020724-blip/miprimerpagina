@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Centrado en el Usuario (DCU) | Wiki Think</title>
+    <meta name="description" content="Principios fundamentales del Diseño Centrado en el Usuario (DCU), un enfoque de diseño interactivo.">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ5T92QP9H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KZ5T92QP9H');
+    </script>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="logo">WIKI</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="active"><a href="index.html#topics-grid-section" class="active">Temas</a></li>
+                <li><a href="glosario.html">Glosario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-box">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar concepto...">
+                <button type="submit" id="search-button">🔍</button>
+            </form>
+            <div id="search-error" class="search-error-message"></div>
+        </div>
+
+    </header>
+
+    <main class="article-container">
+        <aside class="toc-sidebar">
+            <h4 class="sidebar-title">Contenido del Artículo</h4>
+            <nav>
+                <ul>
+                    <li><a href="#definicion">1. ¿Qué es DCU?</a></li>
+                    <li><a href="#fases">2. El Proceso Iterativo</a></li>
+                    <li><a href="#beneficios">3. Beneficios</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <article class="article-content">
+            <h1 id="definicion">Diseño Centrado en el Usuario (DCU)</h1>
+            <p class="intro-text">El **Diseño Centrado en el Usuario (DCU)** es un enfoque de diseño iterativo donde los diseñadores se centran en los usuarios y sus necesidades durante todo el proceso de diseño.</p>
+
+            <section>
+                <h2>1. Definición de DCU</h2>
+                <p>El objetivo principal del DCU es crear productos altamente usables y accesibles abordando las necesidades de los usuarios reales.</p>
+                </section>
+
+            <section id="fases">
+                <h2>2. El Proceso Iterativo</h2>
+                <p>El DCU sigue un ciclo continuo: Entender, Especificar, Diseñar, Evaluar.</p>
+                </section>
+            
+            <hr>
+            <div class="navigation-links">
+                <a href="index.html#topics-grid-section">&larr; Volver a Temas</a> | <a href="glosario.html">Ir al Glosario</a>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Wiki Think. Proyecto Integrador.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

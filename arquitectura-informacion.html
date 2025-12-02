@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura de la Información (AI) | Wiki Think</title>
+    <meta name="description" content="Fundamentos de la Arquitectura de la Información (AI), la estructura detrás de la usabilidad de un sitio.">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ5T92QP9H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KZ5T92QP9H');
+    </script>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="logo">WIKI</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="active"><a href="index.html#topics-grid-section" class="active">Temas</a></li>
+                <li><a href="glosario.html">Glosario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-box">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar concepto...">
+                <button type="submit" id="search-button">🔍</button>
+            </form>
+            <div id="search-error" class="search-error-message"></div>
+        </div>
+
+    </header>
+
+    <main class="article-container">
+        <aside class="toc-sidebar">
+            <h4 class="sidebar-title">Contenido del Artículo</h4>
+            <nav>
+                <ul>
+                    <li><a href="#definicion">1. ¿Qué es AI?</a></li>
+                    <li><a href="#principios">2. Los 4 Componentes</a></li>
+                    <li><a href="#estructuras">3. Tipos de Estructura</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <article class="article-content">
+            <h1 id="definicion">Arquitectura de la Información (AI)</h1>
+            <p class="intro-text">La **Arquitectura de la Información (AI)** es la práctica de estructurar, etiquetar y organizar el contenido de un sitio web para ayudar a los usuarios a encontrar la información y completar las tareas.</p>
+
+            <section>
+                <h2>1. ¿Qué es AI?</h2>
+                <p>La AI es el arte y la ciencia de organizar y etiquetar sitios web, intranets, comunidades en línea y software para apoyar la usabilidad.</p>
+                </section>
+
+            <section id="principios">
+                <h2>2. Los 4 Componentes de la AI</h2>
+                <p>Sistemas de organización, sistemas de etiquetado, sistemas de navegación y sistemas de búsqueda.</p>
+                </section>
+            
+            <hr>
+            <div class="navigation-links">
+                <a href="index.html#topics-grid-section">&larr; Volver a Temas</a> | <a href="glosario.html">Ir al Glosario</a>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Wiki Think. Proyecto Integrador.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
